@@ -17,7 +17,12 @@ steps:
   - id: "Run Unit Tests"
     name: maven:3-openjdk-17
     args: ["mvn", "test"]
-
+    
+  - id: "Sonar Cloud"
+    name: maven:3-openjdk-17
+    args: 
+    - 'mvn' 
+    - 'sonar:sonar'
   # Setup resources for system tests
   - id: "Build Container Image"
     name: "gcr.io/k8s-skaffold/pack"
