@@ -25,7 +25,7 @@ steps:
     - 'sonar:sonar'
     - '-Dsonar.host.url=https://sonarcloud.io'
     - '-Dsonar.login=68bcb52ce17f6cf39d617cc20b3a504482b02cd7'
-    - '-Dsonar.projectKey=test'
+    - '-Dsonar.projectKey=Kritika-Singhal_ci-cd-gcloud'
     - '-Dsonar.organization=kritika-singhal'
     - '-Dsonar.sources=.'
     - '-Dsonar.exclusions= src/test/java/com/cloudrun/microservicetemplate/MicroserviceControllerTest.java, src/test/java/com/cloudrun/microservicetemplate/MicroserviceTemplateIT.java'
