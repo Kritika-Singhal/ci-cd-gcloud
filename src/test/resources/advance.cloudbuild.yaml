@@ -26,7 +26,7 @@ steps:
     - '-Dsonar.host.url=https://sonarcloud.io'
     - '-Dsonar.login=68bcb52ce17f6cf39d617cc20b3a504482b02cd7'
     - '-Dsonar.projectKey=test'
-    - '-Dsonar.organization=Kritika-Singhal'
+    - '-Dsonar.organization=kritika-singhal'
     - '-Dsonar.sources=.'    
     
   # Setup resources for system tests
